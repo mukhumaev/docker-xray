@@ -1,5 +1,5 @@
 # Builder
-FROM golang:1.24-alpine AS builder
+FROM golang:1.25-alpine AS builder
 
 LABEL maintainer="mukhumaev <47594681+mukhumaev@users.noreply.github.com>"
 LABEL version="latest"
